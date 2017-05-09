@@ -1,0 +1,18 @@
+{"price" : [
+  {
+              "cafe" : "The Pigeon Hole cafe",
+              "flatwhite": "$3.50",
+              "latte": "$3.50" },
+            {
+              "cafe" : "Lotus Story",
+              "flatwhite": "$3.50",
+              "latte": "$3.50" },
+            {
+              "cafe" : "Knight's Coffee & Tea",
+              "flatwhite": "$3.65",
+              "latte": "$3.65" },
+            {
+              "cafe" : "Qube on Bay",
+              "flatwhite": "$3.50",
+              "latte": "$3.50" }]
+            }

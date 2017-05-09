@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+
+  <body>
+    <h1><%= title %></h1>
+    <p><%= title %> around Coder Factory Academy.</p>
+
+    <table>
+       <tr>
+          <th>Cafe</th><th>Flatwhite</th><th>Latte</th>
+       </tr>
+
+       <!-- Loop for array -->
+       <% for (var i = 0; i < cafe.price.length; i++) { %>
+        <tr>
+          <td><%= cafe.price[i].cafe%></td>
+          <td><%= cafe.price[i].flatwhite%></td>
+          <td><%= cafe.price[i].latte%></td>
+        </tr>
+       <% } %>
+    </table>
+  </body>
+</html>
