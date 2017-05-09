@@ -8,5 +8,9 @@ router.get('/', function(req, res, next) {
   res.render('index', { cafe: data, title: "Cafe Prices" });
 });
 
+// Sends the data in json format
+router.get('/json', function(req, res, next) {
+  res.json(data);
+});
 
 module.exports = router;
